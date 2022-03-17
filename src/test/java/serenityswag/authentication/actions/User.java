@@ -1,11 +1,14 @@
-package serenityswag.authentication;
+package serenityswag.authentication.actions;
 
 public enum User {
     STANDARD_USER("standard_user","secret_sauce","a standard user"),
-    LOCKED_OUT_USER("locked_out_user","secret_sauce","a user locked out of their account"),
+    LOCKED_OUT_USER("locked_out_user","secret_sauce","a locked-out user of their account"),
     PROBLEM_USER("problem_user","secret_sauce","a problem user"),
     PERFORMANCE_GLITCH_USER("performance_glitch_user","secret_sauce","a performance glitch user");
-
+    //    standard_user
+//    locked_out_user
+//            problem_user
+//    performance_glitch_user
     private final String username;
     private final String password;
     private final String description;
