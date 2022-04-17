@@ -21,7 +21,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 @RunWith(SerenityRunner.class)
 public class WhenInteractingWithInputForms {
-    @Managed(driver = "chrome", uniqueSession = true)
+    @Managed
     WebDriver driver;
 
     @Steps
